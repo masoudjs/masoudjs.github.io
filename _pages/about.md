@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD student at <a href='https://www.cis.uni-muenchen.de/'>CIS</a>, LMU Munich.
 
 profile:
   align: right
