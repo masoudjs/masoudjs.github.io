@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
- I am a PhD student in the Computer Science Department at [LMU Munich](https://www.lmu.de/en/index.html) advised by Prof. Dr. Hinrich Schütze. My research interests are low-resource language processing, multilingual NLP, representation learning, and machine translation.
+ I am a PhD student in the Computer Science Department at [LMU Munich](https://www.lmu.de/en/index.html) under the supervision of Prof. Dr. Hinrich Schütze. My research interests are low-resource language processing, multilingual NLP, representation learning, and machine translation.
 
-Prior to LMU, I received my master's degree in Computer Science at [University of Tehran](https://ut.ac.ir/en) in 2016.
+Prior to LMU, I received my master's degree in Computer Engineering at [University of Tehran](https://ut.ac.ir/en), and my bachelor's degree in Computer Engineering at [IUST](http://ce-inter.iust.ac.ir/).
 
 
 

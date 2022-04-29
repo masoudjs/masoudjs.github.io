@@ -60,6 +60,7 @@ gitlab_username: # your GitLab user name
 twitter_username: _masoudjalili # your Twitter handle
 linkedin_username: masoudjalili # your LinkedIn user name
 scholar_userid: 9nHOYB8AAAAJ # your Google Scholar ID
+
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -70,6 +71,7 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: https://dblp.org/pid/182/2476.html # your DBLP profile url
+semantic_url: https://www.semanticscholar.org/author/Masoud-Jalili-Sabet/33014152
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
