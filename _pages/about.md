@@ -6,7 +6,7 @@ subtitle: PhD student at <a href='https://www.cis.uni-muenchen.de/'>CIS</a>, LMU
 
 profile:
   align: right
-  image: my_prof_pic.jpg
+  image: my_prof_pic_small.jpg
   # address: >
   #   <p>555 your office number</p>
 
