@@ -1,27 +1,130 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@inproceedings{imanigooghari-etal-2021-graph,
+    title = "Graph Algorithms for Multiparallel Word Alignment",
+    author = {ImaniGooghari, Ayyoob  and
+      Jalili Sabet, Masoud  and
+      Senel, Lutfi Kerem  and
+      Dufter, Philipp  and
+      Yvon, Fran{\c{c}}ois  and
+      Sch{\"u}tze, Hinrich},
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.665",
+    pdf = "https://aclanthology.org/2021.emnlp-main.665.pdf",
+    doi = "10.18653/v1/2021.emnlp-main.665",
+    pages = "8457--8469",
+    abstract = "With the advent of end-to-end deep learning approaches in machine translation, interest in word alignments initially decreased; however, they have again become a focus of research more recently. Alignments are useful for typological research, transferring formatting like markup to translated texts, and can be used in the decoding of machine translation systems. At the same time, massively multilingual processing is becoming an important NLP scenario, and pretrained language and machine translation models that are truly multilingual are proposed. However, most alignment algorithms rely on bitexts only and do not leverage the fact that many parallel corpora are multiparallel. In this work, we exploit the multiparallelity of corpora by representing an initial set of bilingual alignments as a graph and then predicting additional edges in the graph. We present two graph algorithms for edge prediction: one inspired by recommender systems and one based on network link prediction. Our experimental results show absolute improvements in F1 of up to 28{\%} over the baseline bilingual word aligner in different datasets.",
+    selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{imanigooghari-etal-2021-parcoure,
+    title = "{P}ar{C}our{E}: A Parallel Corpus Explorer for a Massively Multilingual Corpus",
+    author = {ImaniGooghari, Ayyoob  and
+      Jalili Sabet, Masoud  and
+      Dufter, Philipp  and
+      Cysou, Michael  and
+      Sch{\"u}tze, Hinrich},
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-demo.8",
+    pdf = "https://aclanthology.org/2021.acl-demo.8.pdf",
+    doi = "10.18653/v1/2021.acl-demo.8",
+    pages = "63--72",
+    abstract = "With more than 7000 languages worldwide, multilingual natural language processing (NLP) is essential both from an academic and commercial perspective. Researching typological properties of languages is fundamental for progress in multilingual NLP. Examples include assessing language similarity for effective transfer learning, injecting inductive biases into machine learning models or creating resources such as dictionaries and inflection tables. We provide ParCourE, an online tool that allows to browse a word-aligned parallel corpus, covering 1334 languages. We give evidence that this is useful for typological research. ParCourE can be set up for any parallel corpus and can thus be used for typological research on other corpora as well as for exploring their quality and properties.",
+}
+
+@inproceedings{jalili-sabet-etal-2020-simalign,
+    title = "{S}im{A}lign: High Quality Word Alignments Without Parallel Training Data Using Static and Contextualized Embeddings",
+    author = {Jalili Sabet, Masoud  and
+      Dufter, Philipp  and
+      Yvon, Fran{\c{c}}ois  and
+      Sch{\"u}tze, Hinrich},
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.findings-emnlp.147",
+    pdf = "https://aclanthology.org/2020.findings-emnlp.147.pdf",
+    doi = "10.18653/v1/2020.findings-emnlp.147",
+    pages = "1627--1643",
+    abstract = "Word alignments are useful for tasks like statistical and neural machine translation (NMT) and cross-lingual annotation projection. Statistical word aligners perform well, as do methods that extract alignments jointly with translations in NMT. However, most approaches require parallel training data and quality decreases as less training data is available. We propose word alignment methods that require no parallel data. The key idea is to leverage multilingual word embeddings {--} both static and contextualized {--} for word alignment. Our multilingual embeddings are created from monolingual data only without relying on any parallel data or dictionaries. We find that alignments created from embeddings are superior for four and comparable for two language pairs compared to those produced by traditional statistical aligners {--} even with abundant parallel data; e.g., contextualized embeddings achieve a word alignment F1 for English-German that is 5 percentage points higher than eflomal, a high-quality statistical aligner, trained on 100k parallel sentences.",
+    selected={true}
+}
+
+@inproceedings{jalili-sabet-etal-2016-tmop,
+    title = "{TM}op: a Tool for Unsupervised Translation Memory Cleaning",
+    author = "Jalili Sabet, Masoud  and
+      Negri, Matteo  and
+      Turchi, Marco  and
+      C. de Souza, Jos{\'e} G.  and
+      Federico, Marcello",
+    booktitle = "Proceedings of {ACL}-2016 System Demonstrations",
+    month = aug,
+    year = "2016",
+    address = "Berlin, Germany",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P16-4009",
+    pdf = "https://aclanthology.org/P16-4009.pdf",
+    doi = "10.18653/v1/P16-4009",
+    pages = "49--54",
+}
+
+@inproceedings{jalili-sabet-etal-2016-unsupervised,
+    title = "An Unsupervised Method for Automatic Translation Memory Cleaning",
+    author = "Jalili Sabet, Masoud  and
+      Negri, Matteo  and
+      Turchi, Marco  and
+      Barbu, Eduard",
+    booktitle = "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = aug,
+    year = "2016",
+    address = "Berlin, Germany",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P16-2047",
+    pdf = "https://aclanthology.org/P16-2047.pdf",
+    doi = "10.18653/v1/P16-2047",
+    pages = "287--292",
+}
+
+@inproceedings{jalili-sabet-etal-2016-improving,
+    title = "Improving Word Alignment of Rare Words with Word Embeddings",
+    author = "Jalili Sabet, Masoud  and
+      Faili, Heshaam  and
+      Haffari, Gholamreza",
+    booktitle = "Proceedings of {COLING} 2016, the 26th International Conference on Computational Linguistics: Technical Papers",
+    month = dec,
+    year = "2016",
+    address = "Osaka, Japan",
+    publisher = "The COLING 2016 Organizing Committee",
+    url = "https://aclanthology.org/C16-1302",
+    pdf = "https://aclanthology.org/C16-1302.pdf",
+    pages = "3209--3215",
+    abstract = "We address the problem of inducing word alignment for language pairs by developing an unsupervised model with the capability of getting applied to other generative alignment models. We approach the task by: i)proposing a new alignment model based on the IBM alignment model 1 that uses vector representation of words, and ii)examining the use of similar source words to overcome the problem of rare source words and improving the alignments. We apply our method to English-French corpora and run the experiments with different sizes of sentence pairs. Our results show competitive performance against the baseline and in some cases improve the results up to 6.9{\%} in terms of precision.",
+}
+
+@inproceedings{dadashkarimi-etal-2016-learning,
+    title = "Learning to Weight Translations using Ordinal Linear Regression and Query-generated Training Data for Ad-hoc Retrieval with Long Queries",
+    author = "Dadashkarimi, Javid  and
+      Jalili Sabet, Masoud  and
+      Shakery, Azadeh",
+    booktitle = "Proceedings of {COLING} 2016, the 26th International Conference on Computational Linguistics: Technical Papers",
+    month = dec,
+    year = "2016",
+    address = "Osaka, Japan",
+    publisher = "The COLING 2016 Organizing Committee",
+    url = "https://aclanthology.org/C16-1162",
+    pdf = "https://aclanthology.org/C16-1162.pdf",
+    pages = "1725--1733",
+    abstract = "Ordinal regression which is known with learning to rank has long been used in information retrieval (IR). Learning to rank algorithms, have been tailored in document ranking, information filtering, and building large aligned corpora successfully. In this paper, we propose to use this algorithm for query modeling in cross-language environments. To this end, first we build a query-generated training data using pseudo-relevant documents to the query and all translation candidates. The pseudo-relevant documents are obtained by top-ranked documents in response to a translation of the original query. The class of each candidate in the training data is determined based on presence/absence of the candidate in the pseudo-relevant documents. We learn an ordinal regression model to score the candidates based on their relevance to the context of the query, and after that, we construct a query-dependent translation model using a softmax function. Finally, we re-weight the query based on the obtained model. Experimental results on French, German, Spanish, and Italian CLEF collections demonstrate that the proposed method achieves better results compared to state-of-the-art cross-language information retrieval methods, particularly in long queries with large training data.",
 }
 
 @article{PhysRev.47.777,
@@ -44,29 +147,3 @@
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
