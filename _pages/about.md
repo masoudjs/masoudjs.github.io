@@ -7,12 +7,11 @@ subtitle: Applied Researcher at Data:Lab, Volkswagen AG.
 profile:
   align: right
   image: my_prof_pic_small.jpg
-  # address: >
-  #   <p>555 your office number</p>
+  image_circular: false # crops the image to make it circular
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I am an Applied Researcher in the AI Innovation Team at Volkswagen, where I leverage recent advancements in NLP models and LLMs to drive innovative solutions.
