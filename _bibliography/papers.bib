@@ -27,34 +27,74 @@
   doi = {10.18653/v1/2023.acl-long.61},
 }
 
-@article{https://doi.org/10.48550/arxiv.2203.08654,
-  doi = {10.48550/ARXIV.2203.08654},
-  url = {https://arxiv.org/abs/2203.08654},
-  pdf = {https://arxiv.org/pdf/2203.08654.pdf},
-  author = {Imani, Ayyoob and Şenel, Lütfi Kerem and Jalili Sabet, Masoud and Yvon, François and Schütze, Hinrich},
-  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Graph Neural Networks for Multiparallel Word Alignment},
-  journal = {arXiv},
-  year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license},
+@inproceedings{imanigooghari-etal-2022-graph,
+  abbr={EMNLP},
+  selected={false},
+  bibtex_show={true},
+    title = "Graph-Based Multilingual Label Propagation for Low-Resource Part-of-Speech Tagging",
+    author = {ImaniGooghari, Ayyoob  and
+      Severini, Silvia  and
+      Jalili Sabet, Masoud  and
+      Yvon, Fran{\c{c}}ois  and
+      Sch{\"u}tze, Hinrich},
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    doi = "10.18653/v1/2022.emnlp-main.102",
+    pages = "1577--1589",
+    url = {https://aclanthology.org/2022.emnlp-main.102},
+    pdf = {https://aclanthology.org/2022.emnlp-main.102.pdf},
+    bib = "https://aclanthology.org/2022.emnlp-main.102.bib",
+    abstract = "Part-of-Speech (POS) tagging is an important component of the NLP pipeline, but many low-resource languages lack labeled data for training. An established method for training a POS tagger in such a scenario is to create a labeled training set by transferring from high-resource languages. In this paper, we propose a novel method for transferring labels from multiple high-resource source to low-resource target languages. We formalize POS tag projection as graph-based label propagation. Given translations of a sentence in multiple languages, we create a graph with words as nodes and alignment links as edges by aligning words for all language pairs. We then propagate node labels from source to target using a Graph Neural Network augmented with transformer layers. We show that our propagation creates training sets that allow us to train POS taggers for a diverse set of languages. When combined with enhanced contextualized embeddings, our method achieves a new state-of-the-art for unsupervised POS tagging of low-resource languages.",
+}
+
+
+@inproceedings{imani-etal-2022-graph,
   abbr={ACL},
   selected={true},
   bibtex_show={true},
+    title = "Graph Neural Networks for Multiparallel Word Alignment",
+    author = {Imani, Ayyoob  and
+      Senel, L{\"u}tfi Kerem  and
+      Jalili Sabet, Masoud  and
+      Yvon, Fran{\c{c}}ois  and
+      Schuetze, Hinrich},
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2022",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = {https://aclanthology.org/2022.findings-acl.108},
+    pdf = {https://aclanthology.org/2022.findings-acl.108.pdf},
+    bib = "https://aclanthology.org/2022.findings-acl.108.bib",
+    doi = "10.18653/v1/2022.findings-acl.108",
+    pages = "1384--1396",
+    abstract = "After a period of decrease, interest in word alignments is increasing again for their usefulness in domains such as typological research, cross-lingual annotation projection and machine translation. Generally, alignment algorithms only use bitext and do not make use of the fact that many parallel corpora are multiparallel. Here, we compute high-quality word alignments between multiple language pairs by considering all language pairs together. First, we create a multiparallel word alignment graph, joining all bilingual word alignment pairs in one graph. Next, we use graph neural networks (GNNs) to exploit the graph structure. Our GNN approach (i) utilizes information about the meaning, position and language of the input words, (ii) incorporates information from multiple parallel sentences, (iii) adds and removes edges from the initial alignments, and (iv) yields a prediction model that can generalize beyond the training sentences. We show that community detection algorithms can provide valuable information for multiparallel word alignment. Our method outperforms previous work on three word alignment datasets and on a downstream task.",
 }
 
-@article{https://doi.org/10.48550/arxiv.2203.10010,
-  doi = {10.48550/ARXIV.2203.10010},
-  url = {https://arxiv.org/abs/2203.10010},
-  pdf = {https://arxiv.org/pdf/2203.10010.pdf},
-  author = {Weissweiler, Leonie and Hofmann, Valentin and Jalili Sabet, Masoud and Schütze, Hinrich},
-  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {CaMEL: Case Marker Extraction without Labels},
-  journal = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International},
-  abbr={ACL},
-  bibtex_show={true},
+@inproceedings{weissweiler-etal-2022-camel,
+    title = "{CaMEL}: {C}ase {M}arker {E}xtraction without {L}abels",
+    abbr={ACL},
+    bibtex_show={true},
+    author = "Weissweiler, Leonie  and
+      Hofmann, Valentin  and
+      Jalili Sabet, Masoud  and
+      Schuetze, Hinrich",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = {https://aclanthology.org/2022.acl-long.377},
+    pdf = {https://aclanthology.org/2022.acl-long.377.pdf},
+    bib = "https://aclanthology.org/2022.acl-long.377.bib",
+    doi = "10.18653/v1/2022.acl-long.377",
+    pages = "5506--5516",
+    abstract = "We introduce \textbf{CaMEL} (\textbf{Ca}se \textbf{M}arker \textbf{E}xtraction without \textbf{L}abels), a novel and challenging task in computational morphology that is especially relevant for low-resource languages. We propose a first model for CaMEL that uses a massively multilingual corpus to extract case markers in 83 languages based only on a noun phrase chunker and an alignment system. To evaluate CaMEL, we automatically construct a silver standard from UniMorph. The case markers extracted by our model can be used to detect and visualise similarities and differences between the case systems of different languages as well as to annotate fine-grained deep cases in languages in which they are not overtly marked.",
 }
+
 
 @inproceedings{imanigooghari-etal-2021-graph,
     abbr={EMNLP},
