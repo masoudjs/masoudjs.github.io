@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Scientist in the AI Research Agents (AIRA) Lab at FAIR, Meta.
+subtitle: Research Scientist in AIRA Lab at FAIR, Meta.
 
 profile:
   align: right
@@ -17,7 +17,8 @@ latest_posts: false
 
 I am a Research Scientist in the AI Research Agents (AIRA) Lab at [FAIR, Meta](https://ai.meta.com/research/).
 My current work focuses on ML world models, recursive self-improvement, and rubric-based agentic judges.
-I am also a core contributor to **Muse Glimmer 30B**, for which I developed a synthetic agentic data generation pipeline used for mid-training and post-training.
+I am also a core contributor to [**Muse Glimmer 30B**](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model), an open-weight agentic model.
+I developed a synthetic agentic data generation pipeline used for its mid-training and post-training.
 
 Previously, I was an NLP Research Lead in the AI Innovation team at Volkswagen, where I built production RAG and agentic systems, multimodal pipelines, and LLM evaluation tools.
 I completed my PhD in [CIS](https://www.cis.uni-muenchen.de/) at [LMU Munich](https://www.lmu.de/en/index.html) under the supervision of [Hinrich Schütze](https://www.cis.uni-muenchen.de/schuetze/).
